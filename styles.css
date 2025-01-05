@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+.forecast-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.card {
+  padding: 10px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.dark-theme {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-theme .card {
+  background: rgba(50, 50, 50, 0.7);
+}
+
+input, button {
+  border-radius: 5px;
+}
